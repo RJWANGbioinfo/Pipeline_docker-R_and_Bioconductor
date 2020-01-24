@@ -1,6 +1,6 @@
 FROM r-base:3.6.2
 
-LABEL maintainer="Onur Yukselen <onur.yukselen@umassmed.edu>"
+LABEL maintainer="Ruijia Wang <Ruijia.Wang@umassmed.edu>"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
                 ghostscript \
