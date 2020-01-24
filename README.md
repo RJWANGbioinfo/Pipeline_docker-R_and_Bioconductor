@@ -8,12 +8,21 @@
 
 ### R Libraries
 ggplot2
+
 formatr
+
 knitr
+
 devtools
+
 gplots
-R.utils
+
 Seurat
+
 rmarkdown
+
 RColorBrewer
+
 Cairo
+
+### Bioconductor Libraries
