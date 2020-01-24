@@ -6,6 +6,7 @@
 ## Bioconductor
 3.10
 
+
 ### R Libraries
 ggplot2
 
@@ -46,6 +47,7 @@ dendextend
 scales
 
 ggrepel
+
 
 ### Bioconductor Libraries
 BiocParallel
