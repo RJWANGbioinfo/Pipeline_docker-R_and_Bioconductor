@@ -18,32 +18,9 @@
 
 
 ### Bioconductor Libraries
-BiocParallel
 
-GenomicAlignments
-
-GenomicRanges
-
-rtracklayer
-
-Rsamtools
-
-limma
-
-edgeR
-
-org.Mm.eg.db
-
-org.Hs.eg.db
-
-org.Ce.eg.db
-
-org.Dm.eg.db
-
-ChIPseeker
-
-clusterProfiler
-
-APAlyzer
-
-DESeq2
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| BiocParallel | GenomicAlignments | GenomicRanges | rtracklayer | Rsamtools |
+| limma | edgeR | ChIPseeker | clusterProfiler | APAlyzer |
+| DESeq2 | org.Mm.eg.db | org.Hs.eg.db | org.Ce.eg.db | org.Dm.eg.db |
