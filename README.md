@@ -8,45 +8,13 @@
 
 
 ### R Libraries
-ggplot2
 
-formatr
-
-knitr
-
-devtools
-
-gplots
-
-Seurat
-
-rmarkdown
-
-RColorBrewer
-
-Cairo
-
-tidyr
-
-magrittr
-
-matrixStats
-
-readr
-
-openxlsx
-
-PerformanceAnalytics
-
-pheatmap
-
-gridExtra
-
-dendextend
-
-scales
-
-ggrepel
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| ggplot2 | formatr | knitr | devtools | gplots |
+| Seurat | rmarkdown | RColorBrewer | Cairo | tidyr |
+| magrittr | matrixStats | readr | openxlsx | PerformanceAnalytics |
+| pheatmap | gridExtra | dendextend | scales | ggrepel |
 
 
 ### Bioconductor Libraries
