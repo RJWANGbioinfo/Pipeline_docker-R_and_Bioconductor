@@ -34,5 +34,8 @@ RUN pip install -U setuptools
 RUN pip install multiqc
 RUN R --slave -e "install.packages(c('BiocManager','devtools', 'gplots', 'R.utils', 'Seurat', 'rmarkdown', 'RColorBrewer', 'Cairo','dplyr','tidyr','magrittr','matrixStats','readr','openxlsx','PerformanceAnalytics','pheatmap','gridExtra','dendextend','scales','ggrepel'), dependencies = TRUE, repos='https://cloud.r-project.org')"
 RUN R --slave -e "BiocManager::install(c('BiocParallel','GenomicAlignments', 'GenomicRanges','rtracklayer', 'Rsamtools','limma','edgeR','org.Mm.eg.db','org.Hs.eg.db','org.Ce.eg.db','org.Dm.eg.db','ChIPseeker','clusterProfiler','APAlyzer','DESeq2'))"   
+RUN mkdir -p /nl
+RUN mkdir -p /project
+RUN mkdir -p /share
 #X11 display fix
 #Xvfb :0 -ac -screen 0 1960x2000x24 &
